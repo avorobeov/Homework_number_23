@@ -34,6 +34,7 @@ namespace Homework_number_23
                         {
                             sumArray += numbers[i];
                         }
+
                         Console.WriteLine($"Сумма всех чисел: {sumArray}");
 
                         sumArray = 0;
@@ -50,6 +51,7 @@ namespace Homework_number_23
                         {
                             tempNumbers[i] = numbers[i];
                         }
+
                         tempNumbers[numbers.Length - 1] = Convert.ToInt32(userInput);
                         numbers = tempNumbers;
 
