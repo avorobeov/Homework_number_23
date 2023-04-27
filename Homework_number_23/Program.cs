@@ -34,6 +34,7 @@ namespace Homework_number_23
                         {
                             sumArray += numbers[i];
                         }
+                        sumArray = 0;
 
                         Console.WriteLine($"Сумма всех чисел: {sumArray}");
                         break;
